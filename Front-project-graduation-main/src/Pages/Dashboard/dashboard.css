@@ -1,0 +1,122 @@
+:root{
+    --bg-color:#1f242d;
+    --second-bg-color:#323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+}
+.content-flex{
+    display: flex;
+   
+}
+.dash{
+    background:url('../../Assets/pexels-pixabay-46798.jpg') no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Top Bar */
+.top-bar{
+    box-shadow: 1px 1px 10px 10px  white;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 999;
+    justify-content: space-between;
+}
+/* Side Bar */
+.side-bar{
+    padding: 30px;
+    padding-top: 40px;
+    border-right: 1px solid #fff;
+    width: 20%;
+    height: 100vh;
+    
+   
+}
+.right-bar{
+    display: flex;
+
+}
+/* .right-bar:hover{
+    color: ;
+} */
+.text{
+    /* margin-left: 40px; */
+}
+.btn2{
+    margin-right: 20px;
+    border: 1px solid white;
+    /* border-radius: 100px; */
+}
+.t1{
+    margin-top: 100px;
+    cursor: pointer;
+
+}
+.fa-futbol{
+    padding: 5px;
+    /* padding-right: 0px; */
+    transition: .3s;
+    cursor: pointer;
+    font-size: 25px;
+}
+.fa-futbol:hover{
+    transform: rotate(360deg);
+}
+.fa-users,.fa-user-plus,.fa-poo-storm,.fa-circle-plus,.fa-pen-to-square{
+    color:#eff6ff;
+    margin-right:9px
+}
+.item-link{
+    color: #fff;
+   margin-top:20px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: .2s;
+    font-size: 1.5rem;
+    
+}
+.item-link:first-child{
+    margin-top: 50px;
+}
+.active{
+    background-color: var(--main-color);
+    color: #fff;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.item-link:hover{
+border-radius: 10px;
+    /* text-decoration: underline; */
+    background-color: var(--main-color);
+    color: #fff;
+    border: 2px solid white;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    padding: 20px;
+    margin-top: 50px;
+}
+tr:nth-child(even){
+    background: #38585e;
+}
+th,td{
+    border: 1px solid #ffffff;
+    padding: .75rem ;
+    text-align: center;
+
+}
+th{
+    background: #8d9799;
+    color:#fff ;
+}
+td{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

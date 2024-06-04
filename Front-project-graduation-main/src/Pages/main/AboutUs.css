@@ -1,0 +1,29 @@
+/* Add your custom CSS styles here */
+:root{
+    --bg-color:#1f242d;
+    --second-bg-color:#323946;
+    --text-color:#fff;
+    --main-color:#0ef;
+}
+h1{
+    font-size: 30px;
+    padding-bottom:10px;
+    margin: 0;
+}
+
+.aboutus {
+    
+    margin: 0 auto;
+}
+
+h2 {
+    color: var(--main-color);
+    padding: 20px 0 ;
+    font-size: 18px;
+}
+
+p {
+font-size: 15px;
+line-height: 22px;
+    margin-bottom: 20px;
+}
